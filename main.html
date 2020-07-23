@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<div>
+<head>
+    <title>mindspark2020</title>
+    <style>
+        header{
+        margin: 60px;
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+        from {
+          color: #fff;
+          text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+           }
+
+        to {
+        color: gray;
+        text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+           }
+        }
+
+        button{
+        padding: 30px;
+        background: #FFFF99;
+        border-radius: 30px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        }
+
+        h1{
+        text-align: center;
+        font-size: 50px}
+
+        p{
+        text-align: center}
+
+        h2{
+        text-align: center;
+        font-size: 30px}
+
+        .header {
+        background-image: url("static/college.jpg");
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+
+
+        .program{
+        text-align: center;
+        display: block;
+        margin:  auto;
+        padding: 20px;
+        border: 1px solid block;
+        border-radius: 10px ;
+        background: #add8e6;
+        height: 500px;
+        font-size:30px}
+
+        .main{
+        display: block;
+        margin: auto;
+        background: #c6a600
+        }
+
+        .incentives{
+        display: block;
+        margin: auto;
+        background: rgba(201, 76, 76, 0.3)}
+
+        p{
+        font-size: 20px;
+        text-color: red}
+        @keyframes example {
+        from {text-color: red;}
+        to {text-color: yellow;}
+        }
+
+
+
+    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
+
+<div class="image"></div>
+  <div class="header">
+      <img src="{{url_for('static', filename='college.png')}}" align="middle" />
+       <header>Campus Ambassador</header>
+     <div class="w3-container w3-center w3-animate-right">
+         <a href="https://forms.gle/VXnUVJ7V9hpxfNWd8"><button> REGISTER FOR CAMPUS AMBASSADOR</button></a>
+     </div>
+  </div>
+
+    <div class="program">
+
+        <div class="w3-animate-zoom">
+
+        <h1><b>Program</b></h1><h3>1.MindSpark Campus Ambassador Program is a program which shapes students from various colleges across the nation to become efficient managers and creative leaders.</h3>
+            <h3>2.Ambassadors not only acquire leadership skills/entrepreneurial qualities during the program, but also gain social recognition.</h3>
+            <h3>3.We call for ambassadors to support their constituencies, and educate them about the powerful role played by technical festivals.</h3>
+
+
+        </div>
+    </div>
+
+
+<div class="main">
+    <div class="w3-animate-fading">
+       <h1>Why become A Campus Ambassador?</h1>
+        <h2>Learn</h2>
+          <p>Learn to associate with people. Understand and explore various technical and marketing issues and gain work experience.</p>
+
+        <h2>Build</h2>
+          <p>Build a network with other budding minds across the nation, by collaborating and sharing ideas through our platform.</p>
+
+        <h2>Improve</h2>
+          <p>An opportunity to improve your communication and managerial skills by interacting with people coming from diverse fields and from various colleges across India.</p>
+    </div>
+</div>
+
+<div class="incentives">
+    <div class="w3-animate-fading">
+        <h1><div class="w3-spin">Incentives</div></h1>
+<h2>1.Internship Opportunity</h2>
+<p>This will be given to top Campus Ambassadors, decided based on the amount of work done for MindSpark.</p>
+
+<h2>2.Events</h2>
+<p>Campus ambassador gets two free event registrations in MindSpark’20.</p>
+
+<h2>3.Certificate</h2>
+<p>An official certificate of appreciation will be given to all Campus Ambassadors.</p>
+
+<h2>4.Exciting Goodies and official passes</h2>
+<p>There are a variety of coupons, vouchers and other exciting goodies to be won.Top campus ambassadors will get free passes of keynote lectures and pronite.</p>
+
+<h2>5.Accommodation</h2>
+<p>Accommodation will be provided to the top campus ambassadors during the technical festival, MindSpark.</p>
+
+    </div>
+</div>
+
+
+</body>
+</html>
